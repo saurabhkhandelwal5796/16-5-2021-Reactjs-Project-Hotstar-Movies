@@ -1,17 +1,45 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+/*
+< Card me attributes likhe hai, jo Reactjs me props kehlate hai, inke beech me 
+  kabhi bhee comma, nahi lagate hai.
+
+  *index.js
+  file banakar ke usse array ke values ko call kara hai index number se 
+  *aur array ke values ko object form me banaya tha, isliye object form me array 
+   ko call kara hai.
+
+   *fat-arrow function
+   fat= function hatake const likho
+   arrow = () ke done taraf = () => aise lagao
+   ( value of array,index no of array elemetns,hint name for current array )
+   */
+
+
+
+
+import React, { Component } from 'react'
+import ReactDOM from 'react-dom'
+import Card from "./Cards";
+import Sdata from "./Sdata"
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+
+
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+  <>
+  <h1 className = "heading_style">Watch some Movies and TV series</h1>
+  
+  {Sdata.map((val) => {
+    return (
+        <Card
+            imgscr = {val.imgscr}
+            title = {val.title}
+            sname = {val.sname}
+            link ={val.link}
+        />
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+    )
+  })}
+  </>,
+  document.getElementById("root")
+);
