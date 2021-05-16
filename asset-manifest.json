@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/16-5-2021-Reactjs-Project-Hotstar-Movies/static/css/main.f6e6bc0d.chunk.css",
+    "main.js": "/16-5-2021-Reactjs-Project-Hotstar-Movies/static/js/main.14d9f0df.chunk.js",
+    "main.js.map": "/16-5-2021-Reactjs-Project-Hotstar-Movies/static/js/main.14d9f0df.chunk.js.map",
+    "runtime-main.js": "/16-5-2021-Reactjs-Project-Hotstar-Movies/static/js/runtime-main.76b591e5.js",
+    "runtime-main.js.map": "/16-5-2021-Reactjs-Project-Hotstar-Movies/static/js/runtime-main.76b591e5.js.map",
+    "static/js/2.8678df3d.chunk.js": "/16-5-2021-Reactjs-Project-Hotstar-Movies/static/js/2.8678df3d.chunk.js",
+    "static/js/2.8678df3d.chunk.js.map": "/16-5-2021-Reactjs-Project-Hotstar-Movies/static/js/2.8678df3d.chunk.js.map",
+    "index.html": "/16-5-2021-Reactjs-Project-Hotstar-Movies/index.html",
+    "static/css/main.f6e6bc0d.chunk.css.map": "/16-5-2021-Reactjs-Project-Hotstar-Movies/static/css/main.f6e6bc0d.chunk.css.map",
+    "static/js/2.8678df3d.chunk.js.LICENSE.txt": "/16-5-2021-Reactjs-Project-Hotstar-Movies/static/js/2.8678df3d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.76b591e5.js",
+    "static/js/2.8678df3d.chunk.js",
+    "static/css/main.f6e6bc0d.chunk.css",
+    "static/js/main.14d9f0df.chunk.js"
+  ]
+}
